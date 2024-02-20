@@ -1,0 +1,82 @@
+
+
+/* This is the CSS for the Wikipedia page. */
+
+div#second {
+    position:relative;
+    z-index:2;
+    padding-top:0px;
+    text-align:center;
+    font-size:10px;
+ 
+}
+
+div#first {
+    position:relative;
+    z-index:1;
+    font-style:oblique;
+    padding-top:30px;
+    padding-bottom:20px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bolder;
+    color: #121212;
+}
+
+h1, h2 {
+    margin: 0; 
+    margin-bottom: 5px; 
+  }
+
+  .logo{
+    width:5px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
+  
+  input{
+    width:500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height:24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1df;
+    border-radius: 24px;
+  }
+
+
+  .button {
+    display:block; 
+    padding: 10px 20px;
+    background-color: #121212; 
+    color: #fff; 
+    text-decoration: none; 
+    border: 1px solid #ddd;
+    cursor: pointer;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+  
+  .button:hover { 
+    background-color: #0062cc;
+  }
+  .button:focus {
+    outline: 2px solid #cccccc; 
+  }
+
+
+  
